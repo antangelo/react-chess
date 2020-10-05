@@ -1,0 +1,30 @@
+.square {
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 64px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 64px;
+}
+
+.lightSquare {
+  background: #eeeed2
+}
+
+.darkSquare {
+  background: #769656
+}
+
+.whitePiece {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  color:white;  
+}
+
+.square:focus {
+  outline: none;
+}
